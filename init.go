@@ -1,21 +1,16 @@
 package main
 
 import (
-	"log"
-
+	"github.com/PretendoNetwork/plogger-go"
 	"github.com/joho/godotenv"
 )
 
-type Config struct {
-	Mongo struct {
-	}
-	Cassandra struct{}
-}
+var logger = plogger.NewLogger()
 
 func init() {
 	err := godotenv.Load()
 	if err != nil {
-		log.Fatal("Error loading .env file")
+		logger.Warning("Error loading .env file")
 	}
 
 	connectMongo()
