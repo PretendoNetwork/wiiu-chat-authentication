@@ -4,14 +4,14 @@ go 1.18
 
 require (
 	github.com/PretendoNetwork/nex-go v1.0.8
-	github.com/PretendoNetwork/nex-protocols-common-go v1.0.7
+	github.com/PretendoNetwork/nex-protocols-common-go v1.0.10
 	github.com/PretendoNetwork/plogger-go v1.0.2
 	github.com/joho/godotenv v1.4.0
 	go.mongodb.org/mongo-driver v1.10.1
 )
 
 require (
-	github.com/PretendoNetwork/nex-protocols-go v1.0.5 // indirect
+	github.com/PretendoNetwork/nex-protocols-go v1.0.8 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/jwalton/go-supportscolor v1.1.0 // indirect
